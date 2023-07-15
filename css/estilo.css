@@ -1,0 +1,208 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+
+    padding: 0;
+    
+    margin: 0;
+    
+    box-sizing: border-box;
+    
+    }
+
+#h1-i {
+    color: rgba(0, 0, 150, 0.918);
+}
+
+#seccion1-i {
+    color: rgba(0, 0, 150, 0.918);
+    display: inline-block;
+    margin-left:0px;
+}
+
+#seccion2-i {
+ color: rgb(190, 1, 1);
+}
+
+#h1-s {    
+    color: rgba(0, 0, 150, 0.918);
+}
+#seccion1-s {
+    color: rgb(190, 1, 1);
+}
+
+
+#h1-a {
+    color: rgba(0, 0, 150, 0.918);
+}
+
+#seccion1-a {
+    color: rgb(190, 1, 1)
+}
+
+#seccion2-a { 
+    color: rgba(0, 0, 150, 0.918);
+}
+
+#seccion3-a {
+    color: rgb(190, 1, 1);
+}
+
+#h1-id {
+    color: rgb(190, 1, 1);
+}
+
+#seccion1-id {
+    color: rgba(0, 0, 150, 0.918);
+}
+
+#seccion2-id {
+    color: rgb(190, 1, 1);
+}
+
+#seccion3-id {
+    color: rgba(0, 0, 150, 0.918);
+}
+
+#h1-f {
+    color: rgb(190, 1, 1);
+}
+
+#seccion1-f {
+    color: rgba(0, 0, 150, 0.918);
+}
+
+#seccion2-f {
+    color: rgb(190, 1, 1);
+}
+
+nav li{
+    
+    display: inline;/*hace que los items esten uno al lado del otro*/
+    
+    margin-left:130px;/*le da un espaciado */
+
+    text-decoration: none; 
+    
+    /* al poner position : fixed para que la barra de navegacion te acompañe durante todo el sitio, se me apilan todos los li y no quedan funcional.*/
+}
+
+#mapa {
+    margin-left: 280px;
+}
+
+#logo {
+    display: inline;
+}
+
+form {
+    margin-left: 690px;
+}
+
+#anillo {
+    margin-left: 130px;
+}
+
+
+.flex-container{
+    display: flex;
+    background-color: red;
+    padding: 10px;
+    border: 2px black;
+
+
+}
+
+.flex-container div{
+    background-color: aliceblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px black;
+}
+
+.header {
+    background-color: #bb0505;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 85px;
+    padding: 5px ;
+
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links a{
+    font-size: 700;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: #17408B;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.918);
+}
+.container-all{
+    width: 1000%;
+    max-width: 100%;
+    padding: 0;
+    background-color: #15387ae0;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.container-all img{
+    width: 240px;
+    height: 240px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.title{
+
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.container-all p{
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.container-all2{
+    width: 1000%;
+    max-width: 100%;
+    padding: 0;
+    background-color: #15387ae0;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.container-all2 img{
+    width: 240px;
+    height: 240px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.title2{
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.container-all2 p{
+    font-size: 27px;
+    font-weight: 300;
+}

@@ -2,15 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-*{
-
-    padding: 0;
-    
-    margin: 0;
-    
-    box-sizing: border-box;
-    
-    }
+/*
 
 #h1-i {
     color: rgba(0, 0, 150, 0.918);
@@ -80,13 +72,13 @@ body {
 
 nav li{
     
-    display: inline;/*hace que los items esten uno al lado del otro*/
+    display: inline;/*hace que los items esten uno al lado del otro
     
-    margin-left:130px;/*le da un espaciado */
+    margin-left:130px;
 
-    text-decoration: none; 
+    text-decoration: none; */
     
-    /* al poner position : fixed para que la barra de navegacion te acompañe durante todo el sitio, se me apilan todos los li y no quedan funcional.*/
+    /* al poner position : fixed para que la barra de navegacion te acompañe durante todo el sitio, se me apilan todos los li y no quedan funcional.
 }
 
 #mapa {
@@ -125,8 +117,8 @@ form {
     border: 2px black;
 }
 
-.header {
-    background-color: #bb0505;
+/* .header {
+    background-color: rgb(187, 5, 5);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -152,18 +144,18 @@ form {
     color: #17408B;
 }
 
+
 body {
-    background-color: rgba(0, 0, 0, 0.918);
+    background-color: beige;
 }
 .container-all{
     width: 1000%;
     max-width: 100%;
-    padding: 0;
-    background-color: #15387ae0;
+    padding: 10;
+    background-color: #17408B;
     margin-top: 35px;
     margin-bottom: 10px;
 }
-
 .container-all img{
     width: 240px;
     height: 240px;
@@ -180,29 +172,93 @@ body {
     font-size: 27px;
     font-weight: 300;
 }
+*/
 
-.container-all2{
-    width: 1000%;
-    max-width: 100%;
+*{
+
     padding: 0;
-    background-color: #15387ae0;
-    margin-top: 35px;
-    margin-bottom: 10px;
+    
+    margin: 0;
+    
+    box-sizing: border-box;
+    
+    }
+
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+/*
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.container-all2 img{
-    width: 240px;
-    height: 240px;
-    float: right;
-    margin-right: 10px;
-    margin-bottom: 10px;
+.logo{
+    height: 80px;
+    margin-bottom: 1rem;
 }
-.title2{
+
+.social-icons-container, .footer-menu-container{
+    display: flex;
     justify-content: center;
-    font-size: 40px;
-    margin-bottom: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
-.container-all2 p{
-    font-size: 27px;
-    font-weight: 300;
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(resource/FacebookBlanco.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+/* El footer no esta terminado claramente, no se me ocurre que poner */
+/* id = # - class = . */
+
+body{
+    background-color: #C9082A;
+}
+
+.cuadro{
+    display: flex; 
+    background-color: #17408B;
+}
+
+.card{
+    width: 48%; 
+    color: black;
+    margin-right: 4%; 
+    margin-bottom: 6px; 
+    margin-left: 6px; 
+    margin-top: 6px; 
+    border: solid black;
+}
+.card1 {
+    width: 48%;
+    color: black;
+    margin-right: 6px; 
+    margin-bottom: 6px; 
+    margin-top: 6px;
+    border: solid black; 
+}
+
+.card-body{
+    background-color:#17408B 
+}
+.card-body1{
+    background-color:#17408B 
 }

@@ -229,36 +229,235 @@ footer{
 /* El footer no esta terminado claramente, no se me ocurre que poner */
 /* id = # - class = . */
 
-body{
-    background-color: #C9082A;
+#cuadro-I{
+    display: flex;
 }
 
-.cuadro{
-    display: flex; 
-    background-color: #17408B;
+.titulo {
+    background-color: #17408b;
+    display: flex;
+    justify-content: center;
+
 }
 
-.card{
-    width: 48%; 
-    color: black;
-    margin-right: 4%; 
-    margin-bottom: 6px; 
-    margin-left: 6px; 
-    margin-top: 6px; 
-    border: solid black;
-}
-.card1 {
+.cuadro-jokic {
     width: 48%;
     color: black;
-    margin-right: 6px; 
-    margin-bottom: 6px; 
+    margin-right: 4%;
+    margin-bottom: 6px;
+    margin-left: 6px;
     margin-top: 6px;
-    border: solid black; 
+    border: solid black;
 }
 
-.card-body{
-    background-color:#17408B 
+.cuadro-james{
+    width: 48%;
+    color: black;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    margin-top: 6px;
+    border: solid black;
 }
-.card-body1{
-    background-color:#17408B 
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #17408b;
+}
+
+#navbar {
+    background-color: #c9082c;
+}
+#footer {
+    background-color: #c9082c;
+}
+
+#main-i {
+    background-color: #17408b;
+}
+
+.cuadro-A {
+    border: solid black;
+    display: flex;
+    background-color: #17408b;
+}
+.card-g {
+    display: flex;
+    justify-content: center;
+    color: gold;
+    border: solid black;
+}
+
+.cuadro-G {
+    border: solid black;
+}
+
+.h1-A {
+    display: flex;
+    justify-content: center;
+    background-color: #17408b;
+}
+
+#mavbar-a {
+    background-color: #c9082c;
+}
+
+
+#navegacion-a {
+    background-color: #c9082c;
+}
+
+.cuadro-O{
+    border: solid black;
+    color: black;
+}
+
+.card-O{
+    display: flex;
+    color: gold;
+    justify-content: center;
+    border: solid black;
+}
+
+.cuadro-C{
+ border: solid black;
+ margin-bottom: 10px;
+ margin-top: 10px;
+ margin-right: 10px;
+   
+}
+
+.card-O{
+    display: flex;
+    color: gold;
+    justify-content: center;
+    border: solid black;
+}
+.card-c{
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    color: gold;
+}
+
+.header {
+    background-color: #17408b;
+}
+
+
+#body-i {
+    background-color: #17408b;
+}
+
+.h1-h {
+    display: flex;
+    justify-content: center;
+    background-color: #17408b;
+}
+
+#navbar-h{
+    background-color: #c9082c;
+}
+
+.main-h{
+    background-color: #17408b;
+}
+
+.footer-h {
+    background-color: #c9082c;
+}
+
+.footer-A{
+    background-color: #c9082c;
+}
+#footer{
+    background-color: #c9082c;
+}
+
+form{
+    background-color: #c9082c;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.center-content{
+    display: flex;
+    justify-content: center;
+    border: solid #17408b;
+    position: relative;
+}
+
+.div-form {
+    display: flexbox;
+    justify-content: center;
+}
+
+.img-form{
+    background-color: black;
+    height: 350px;
+    justify-content: center;
+}
+
+main{
+    background-color: #17408b;
+}
+
+.div-p{
+
+    justify-content: center;
+}
+
+.h1-f{
+    background-color: #17408b;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar-f{
+    background-color: #c9082c;
+}
+
+header{
+    background-color: #17408b;
+}
+
+.form-p {
+    display: flex;
+    justify-content: center;
+}
+
+.colorfondo{
+    background-color: black;
+}
+
+.footer-f{
+    background-color: aliceblue;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto;
+    min-height: 27.5vh;
+}
+
+#navbar-finalistas {
+    background-color: #c9082c;
+}
+.divisor-video {
+    display: flex;
+    justify-content: center;
+    border: white;
+}
+.parrafo-finalistas{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-finalistas {
+    display: flex;
+    justify-content: center;
 }

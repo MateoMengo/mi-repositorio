@@ -1,0 +1,65 @@
+.footer-h {
+    background-color: $Background-PhilippineRed;
+}
+
+.footer-A{
+    background-color: $Background-PhilippineRed;
+}
+#footer{
+    background-color: $Background-PhilippineRed;
+}
+
+
+.footer-f{
+    background-color: aliceblue;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto;
+    min-height: 27.5vh;
+}
+
+footer {
+    background-color:$footer-background-color;
+    background-image: linear-gradient(to botoom, red, yellow);
+    padding: $footer-padding;
+    text-align: center;
+  }
+  footer {
+    background: linear-gradient(to top, $gradient-color-start, $gradient-color-end);
+    padding: $footer-padding;
+    text-align: center;
+  }
+  
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  
+    a {
+      display: inline-block;
+      margin: 0 10px;
+  
+      img {
+        width: $icon-width;
+        height: $icon-height;
+        border-radius: $icon-border-radius;
+        transition: transform $icon-transition-duration;
+      }
+  
+      img:hover {
+        transform: scale($icon-scale-on-hover);
+      }
+    }
+  }
+
+  .footerfixed-1 {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px; /* Altura del footer */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }

@@ -1,0 +1,167 @@
+
+#main-i {
+    background-color: $Background-CornflowerBlue;
+    display: flex;
+    min-height: 100vh;
+
+    #cuadro-I{
+        flex: 1;
+        display: flex;
+        .cuadro-jokic {
+
+            color: black;
+            margin-right: 4%;
+            margin-bottom: 6px;
+            margin-left: 6px;
+            margin-top: 6px;
+            border: solid black;
+        }
+        .cuadro-james{
+
+            color: black;
+            margin-right: 6px;
+            margin-bottom: 6px;
+            margin-left: 6px;
+            margin-top: 6px;
+            border: solid black;
+        }
+    } 
+    
+
+
+}
+
+.cuadro-A {
+    border: solid black;
+    display: flex;
+    background-color: $Background-CornflowerBlue;
+    .cuadro-G {
+        border: solid black;
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+        margin-left: 10px;
+        .card-g {
+            display: flex;
+            justify-content: center;
+            color: gold;
+            border-top: solid black;
+            border-bottom: solid black;
+        }
+    }
+    .cuadro-O{
+        border: solid black;
+        color: black;
+        margin-left: 6px; 
+        margin-right: 6px; 
+        margin-top: 10px; 
+        margin-bottom: 10px;
+        .card-O{
+            display: flex;
+            color: gold;
+            justify-content: center;
+            border-top: solid black;
+            border-bottom: solid black;
+        }
+    }
+    .cuadro-C{
+        border: solid black;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        .card-c{
+            display: flex;
+            justify-content: center;
+            color: gold;
+            border-top: solid black;
+            border-bottom: solid black;
+        }   
+       }
+    
+}
+
+#cuadro-I{
+    display: flex;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: $Background-CornflowerBlue;
+    min-height: 100vh;
+}
+
+
+.divisor-video {
+    display: flex;
+    justify-content: center;
+    border: white;
+    .parrafo-finalistas{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.h1-h {
+    display: flex;
+    justify-content: center;
+    background-color: $Background-CornflowerBlue;
+}
+
+
+.main-h{
+    background-color: $Background-CornflowerBlue;
+}
+form{
+    background-color: #c9082c;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.colorfondo{
+    background-color: #17408b;
+}
+
+.div-p{
+    display: flex;
+    justify-content: center;
+    min-height: 25.6vh;
+}
+
+@media screen and (max-width: 767px) {
+    #cuadro-I {
+      flex-direction: column; /* Los cuadros se apilarán verticalmente */
+    }
+    
+    #cuadro-I .cuadro-jokic,
+    #cuadro-I .cuadro-james { 
+      width: 98%; /* Utilizo el imporant porque si no quedan en columna pero ocupando un 48%*/
+      
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .cuadro-A {
+        flex-direction: column;
+    }
+    
+  }
+
+@media screen and (max-widgt:767) {
+    .divisior-video {
+        width: 80%;
+    }
+    
+}
+
+.colorfondo-s{
+    min-height: 100vh;
+}
+  
+  
+  
+  

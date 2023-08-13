@@ -5,6 +5,7 @@
     background-color: $Background-CornflowerBlue;
     display: flex;
     justify-content: center;
+    
 
 }
 .titulo-finalistas {
@@ -38,10 +39,10 @@ header{
 }
 
 
-
-#navbar-f{
-    background-color: $Background-PhilippineRed;
-}
 .colorfondo{
     background-color: black;
+    height: 100vh;
+}
+p{
+    color: black;
 }

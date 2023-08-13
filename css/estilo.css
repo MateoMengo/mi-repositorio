@@ -2,7 +2,6 @@
 /** Variabbles para el footer*/
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #17408b;
 }
 
 * {
@@ -15,10 +14,11 @@ body {
   background-color: #c9082c;
 }
 
-.titulo {
+#titulo{
   background-color: #17408b;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
+
 }
 
 .titulo-finalistas {
@@ -55,12 +55,13 @@ header {
   justify-content: center;
 }
 
-#navbar-f {
-  background-color: #c9082c;
-}
-
 .colorfondo {
   background-color: black;
+  height: 100vh;
+}
+
+p {
+  color: black;
 }
 
 .header {
@@ -68,23 +69,27 @@ header {
 }
 
 #navbar-h {
-  background-color: #c9082c;
+  background-color: rgba(207, 2, 2, 0.87);
 }
 
 #mavbar-a {
-  background-color: #c9082c;
+  background-color: rgba(207, 2, 2, 0.87);
 }
 
 #navegacion-a {
-  background-color: #c9082c;
+  background-color: rgba(207, 2, 2, 0.87);
 }
 
 #navbar-finalistas {
-  background-color: #c9082c;
+  background-color: rgba(207, 2, 2, 0.87);
 }
 
 #navbar {
-  background-color: #c9082c;
+  background-color: rgba(207, 2, 2, 0.87);
+}
+
+#navbar-f {
+  background-color: rgba(207, 2, 2, 0.87);
 }
 
 #main-i {
@@ -195,7 +200,7 @@ body {
 }
 
 form {
-  background-color: #c9082c;
+  background-color: rgba(207, 2, 2, 0.87);
   margin: 0 auto;
   width: 300px;
   padding: 10px;
